@@ -1,0 +1,667 @@
+#QCM v1
+name=Java POO
+card
+Q=Quel mot-clé permet de créer un nouvel objet à partir d’une classe ?
+A1=create
+A2=new
+A3=construct
+A4=build
+C=2
+card
+Q=Quel mot-clé indique qu’une classe hérite d’une autre ?
+A1=inherit
+A2=extends
+A3=implements
+A4=super
+C=2
+card
+Q=Quel mot-clé indique qu’une classe implémente une interface ?
+A1=extends
+A2=with
+A3=implements
+A4=inherit
+C=3
+card
+Q=Quelle méthode est le point d’entrée d’un programme Java ?
+A1=start()
+A2=main()
+A3=run()
+A4=launch()
+C=2
+card
+Q=Quelle est la classe mère de toutes les classes Java ?
+A1=Object
+A2=System
+A3=Class
+A4=Base
+C=1
+card
+Q=Quel mot-clé empêche la redéfinition d’une méthode ?
+A1=protected
+A2=static
+A3=final
+A4=private
+C=3
+card
+Q=Quel mot-clé est utilisé pour déclarer une constante ?
+A1=static
+A2=final
+A3=const
+A4=fixed
+C=2
+card
+Q=Que fait le mot-clé super ?
+A1=Appelle une méthode de la classe mère
+A2=Crée une instance de la classe mère
+A3=Supprime un objet
+A4=Change la visibilité d’un membre
+C=1
+card
+Q=Quelle méthode est appelée automatiquement lors de la création d’un objet ?
+A1=create()
+A2=constructor()
+A3=new()
+A4=constructeur de la classe
+C=4
+card
+Q=Quel mot-clé rend une méthode commune à toutes les instances ?
+A1=shared
+A2=final
+A3=static
+A4=public
+C=3
+card
+Q=Que signifie l’encapsulation en Java ?
+A1=Rendre le code plus rapide
+A2=Protéger les données d’un objet
+A3=Regrouper plusieurs classes
+A4=Partager les méthodes entre classes
+C=2
+card
+Q=Quelle visibilité permet l’accès uniquement dans la même classe ?
+A1=private
+A2=public
+A3=protected
+A4=default
+C=1
+card
+Q=Quelle visibilité autorise l’accès depuis le même package ?
+A1=private
+A2=public
+A3=protected
+A4=default
+C=4
+card
+Q=Quelle visibilité autorise l’accès depuis les sous-classes et le même package ?
+A1=protected
+A2=public
+A3=private
+A4=default
+C=1
+card
+Q=Quel type primitif représente un caractère ?
+A1=char
+A2=String
+A3=byte
+A4=boolean
+C=1
+card
+Q=Quel type primitif peut contenir une valeur vraie ou fausse ?
+A1=int
+A2=byte
+A3=boolean
+A4=double
+C=3
+card
+Q=Quel type primitif représente un nombre à virgule ?
+A1=int
+A2=float
+A3=char
+A4=boolean
+C=2
+card
+Q=Quelle structure peut stocker des valeurs en double ?
+A1=Set
+A2=Map
+A3=ArrayList
+A4=TreeSet
+C=3
+card
+Q=Quel package contient la classe Scanner ?
+A1=java.io
+A2=java.lang
+A3=java.util
+A4=java.text
+C=3
+card
+Q=Quelle méthode de Scanner lit une chaîne de caractères ?
+A1=nextLine()
+A2=readString()
+A3=getLine()
+A4=nextString()
+C=1
+card
+Q=Quelle méthode de Scanner lit un entier ?
+A1=nextInt()
+A2=readInt()
+A3=getInt()
+A4=read()
+C=1
+card
+Q=Comment afficher un texte avec retour à la ligne ?
+A1=System.print()
+A2=System.write()
+A3=System.out.println()
+A4=Console.log()
+C=3
+card
+Q=Comment afficher un texte sans retour à la ligne ?
+A1=System.out.print()
+A2=System.write()
+A3=System.out.println()
+A4=Console.print()
+C=1
+card
+Q=Quel mot-clé déclare une méthode abstraite ?
+A1=abstract
+A2=virtual
+A3=interface
+A4=optional
+C=1
+card
+Q=Que doit faire une classe abstraite contenant une méthode abstraite ?
+A1=Être dérivée pour être instanciable
+A2=Être finale
+A3=Être privée
+A4=Être dans java.lang
+C=1
+card
+Q=Une interface peut contenir :
+A1=Uniquement des méthodes abstraites et des constantes
+A2=Des constructeurs
+A3=Des méthodes privées
+A4=Des variables locales
+C=1
+card
+Q=Une exception est :
+A1=Un objet
+A2=Une méthode
+A3=Un mot-clé
+A4=Un type primitif
+C=1
+card
+Q=Quel mot-clé sert à lancer une exception ?
+A1=throw
+A2=try
+A3=catch
+A4=throws
+C=1
+card
+Q=Quel mot-clé déclare qu’une méthode peut lever une exception ?
+A1=throw
+A2=throws
+A3=catch
+A4=finally
+C=2
+card
+Q=Quel bloc permet d’intercepter une exception ?
+A1=try
+A2=catch
+A3=finally
+A4=throw
+C=2
+card
+Q=Quel bloc s’exécute toujours, qu’il y ait ou non une exception ?
+A1=catch
+A2=finally
+A3=throw
+A4=exit
+C=2
+card
+Q=Que fait le ramasse-miettes (Garbage Collector) ?
+A1=Supprime les fichiers temporaires
+A2=Libère la mémoire des objets non référencés
+A3=Optimise le code
+A4=Ferme les flux ouverts
+C=2
+card
+Q=Quel opérateur compare les valeurs de deux entiers ?
+A1==
+A2=equals
+A3=compareTo
+A4=compare
+C=1
+card
+Q=Quel opérateur compare les références d’objets ?
+A1==
+A2=equals()
+A3=is()
+A4=compare()
+C=1
+card
+Q=Quelle méthode compare le contenu logique de deux objets ?
+A1==
+A2=equals()
+A3=compareTo()
+A4=isEqual()
+C=2
+card
+Q=Quel mot-clé empêche une classe d’être héritée ?
+A1=abstract
+A2=final
+A3=static
+A4=protected
+C=2
+card
+Q=Quel mot-clé permet de créer un nouvel objet à partir d’une classe ?
+A1=create
+A2=new
+A3=construct
+A4=build
+C=2
+card
+Q=Quel mot-clé indique qu’une classe hérite d’une autre ?
+A1=inherit
+A2=extends
+A3=implements
+A4=super
+C=2
+card
+Q=Quel mot-clé indique qu’une classe implémente une interface ?
+A1=extends
+A2=with
+A3=implements
+A4=inherit
+C=3
+card
+Q=Quelle méthode est le point d’entrée d’un programme Java ?
+A1=start()
+A2=main()
+A3=run()
+A4=launch()
+C=2
+card
+Q=Quelle est la classe mère de toutes les classes Java ?
+A1=Object
+A2=System
+A3=Class
+A4=Base
+C=1
+card
+Q=Quel mot-clé empêche la redéfinition d’une méthode ?
+A1=protected
+A2=static
+A3=final
+A4=private
+C=3
+card
+Q=Quel mot-clé est utilisé pour déclarer une constante ?
+A1=static
+A2=final
+A3=const
+A4=fixed
+C=2
+card
+Q=Que fait le mot-clé super ?
+A1=Appelle une méthode de la classe mère
+A2=Crée une instance de la classe mère
+A3=Supprime un objet
+A4=Change la visibilité d’un membre
+C=1
+card
+Q=Quelle méthode est appelée automatiquement lors de la création d’un objet ?
+A1=create()
+A2=constructor()
+A3=new()
+A4=constructeur de la classe
+C=4
+card
+Q=Quel mot-clé rend une méthode commune à toutes les instances ?
+A1=shared
+A2=final
+A3=static
+A4=public
+C=3
+card
+Q=Que signifie l’encapsulation en Java ?
+A1=Rendre le code plus rapide
+A2=Protéger les données d’un objet
+A3=Regrouper plusieurs classes
+A4=Partager les méthodes entre classes
+C=2
+card
+Q=Quelle visibilité permet l’accès uniquement dans la même classe ?
+A1=private
+A2=public
+A3=protected
+A4=default
+C=1
+card
+Q=Quelle visibilité autorise l’accès depuis le même package ?
+A1=private
+A2=public
+A3=protected
+A4=default
+C=4
+card
+Q=Quelle visibilité autorise l’accès depuis les sous-classes et le même package ?
+A1=protected
+A2=public
+A3=private
+A4=default
+C=1
+card
+Q=Quel type primitif représente un caractère ?
+A1=char
+A2=String
+A3=byte
+A4=boolean
+C=1
+card
+Q=Quel type primitif peut contenir une valeur vraie ou fausse ?
+A1=int
+A2=byte
+A3=boolean
+A4=double
+C=3
+card
+Q=Quel type primitif représente un nombre à virgule ?
+A1=int
+A2=float
+A3=char
+A4=boolean
+C=2
+card
+Q=Quelle structure peut stocker des valeurs en double ?
+A1=Set
+A2=Map
+A3=ArrayList
+A4=TreeSet
+C=3
+card
+Q=Quel package contient la classe Scanner ?
+A1=java.io
+A2=java.lang
+A3=java.util
+A4=java.text
+C=3
+card
+Q=Quelle méthode de Scanner lit une chaîne de caractères ?
+A1=nextLine()
+A2=readString()
+A3=getLine()
+A4=nextString()
+C=1
+card
+Q=Quelle méthode de Scanner lit un entier ?
+A1=nextInt()
+A2=readInt()
+A3=getInt()
+A4=read()
+C=1
+card
+Q=Comment afficher un texte avec retour à la ligne ?
+A1=System.print()
+A2=System.write()
+A3=System.out.println()
+A4=Console.log()
+C=3
+card
+Q=Comment afficher un texte sans retour à la ligne ?
+A1=System.out.print()
+A2=System.write()
+A3=System.out.println()
+A4=Console.print()
+C=1
+card
+Q=Quel mot-clé déclare une méthode abstraite ?
+A1=abstract
+A2=virtual
+A3=interface
+A4=optional
+C=1
+card
+Q=Que doit faire une classe abstraite contenant une méthode abstraite ?
+A1=Être dérivée pour être instanciable
+A2=Être finale
+A3=Être privée
+A4=Être dans java.lang
+C=1
+card
+Q=Une interface peut contenir :
+A1=Uniquement des méthodes abstraites et des constantes
+A2=Des constructeurs
+A3=Des méthodes privées
+A4=Des variables locales
+C=1
+card
+Q=Une exception est :
+A1=Un objet
+A2=Une méthode
+A3=Un mot-clé
+A4=Un type primitif
+C=1
+card
+Q=Quel mot-clé sert à lancer une exception ?
+A1=throw
+A2=try
+A3=catch
+A4=throws
+C=1
+card
+Q=Quel mot-clé déclare qu’une méthode peut lever une exception ?
+A1=throw
+A2=throws
+A3=catch
+A4=finally
+C=2
+card
+Q=Quel bloc permet d’intercepter une exception ?
+A1=try
+A2=catch
+A3=finally
+A4=throw
+C=2
+card
+Q=Quel bloc s’exécute toujours, qu’il y ait ou non une exception ?
+A1=catch
+A2=finally
+A3=throw
+A4=exit
+C=2
+card
+Q=Que fait le ramasse-miettes (Garbage Collector) ?
+A1=Supprime les fichiers temporaires
+A2=Libère la mémoire des objets non référencés
+A3=Optimise le code
+A4=Ferme les flux ouverts
+C=2
+card
+Q=Quel opérateur compare les valeurs de deux entiers ?
+A1==
+A2=equals
+A3=compareTo
+A4=compare
+C=1
+card
+Q=Quel opérateur compare les références d’objets ?
+A1==
+A2=equals()
+A3=is()
+A4=compare()
+C=1
+card
+Q=Quelle méthode compare le contenu logique de deux objets ?
+A1==
+A2=equals()
+A3=compareTo()
+A4=isEqual()
+C=2
+card
+Q=Quel mot-clé empêche une classe d’être héritée ?
+A1=abstract
+A2=final
+A3=static
+A4=protected
+C=2
+card
+Q=Quel mot-clé permet d’interrompre une boucle immédiatement ?
+A1=exit
+A2=stop
+A3=break
+A4=continue
+C=3
+card
+Q=Quel mot-clé passe directement à l’itération suivante d’une boucle ?
+A1=continue
+A2=skip
+A3=next
+A4=break
+C=1
+card
+Q=Quel mot-clé indique qu’une variable appartient à la classe plutôt qu’à l’objet ?
+A1=shared
+A2=static
+A3=final
+A4=public
+C=2
+card
+Q=Quel opérateur vérifie le type d’un objet ?
+A1=is
+A2=check
+A3=instanceof
+A4=typeof
+C=3
+card
+Q=Quel mot-clé permet d’importer une classe d’un autre package ?
+A1=include
+A2=import
+A3=using
+A4=require
+C=2
+card
+Q=Quel mot-clé indique une relation d’héritage multiple entre interfaces ?
+A1=extends
+A2=implements
+A3=super
+A4=merge
+C=1
+card
+Q=Que fait la méthode toString() ?
+A1=Retourne une représentation texte de l’objet
+A2=Transforme un texte en objet
+A3=Compare deux objets
+A4=Affiche directement l’objet
+C=1
+card
+Q=Que fait la méthode hashCode() ?
+A1=Retourne un code entier représentant l’objet
+A2=Crée un mot de passe
+A3=Supprime l’objet
+A4=Affiche le texte
+C=1
+card
+Q=Comment obtenir la longueur d’un tableau ?
+A1=tab.size()
+A2=tab.length
+A3=tab.count()
+A4=length(tab)
+C=2
+card
+Q=Quelle boucle parcourt tous les éléments d’un tableau ?
+A1=for-each
+A2=while
+A3=do-while
+A4=foreach(tab)
+C=1
+card
+Q=Quel mot-clé indique qu’une méthode surcharge une méthode parente ?
+A1=super
+A2=override
+A3=@Override
+A4=extend
+C=3
+card
+Q=Quelle méthode est utilisée pour convertir une chaîne en entier ?
+A1=Integer.parseInt()
+A2=String.toInt()
+A3=parseInteger()
+A4=convertInt()
+C=1
+card
+Q=Quel mot-clé déclare une classe interne ?
+A1=inner
+A2=class
+A3=innerclass
+A4=localclass
+C=2
+card
+Q=Que signifie JVM ?
+A1=Java Virtual Machine
+A2=Java Version Manager
+A3=Java Value Module
+A4=Java Virtual Memory
+C=1
+card
+Q=Que signifie JDK ?
+A1=Java Development Kit
+A2=Java Deployment Kernel
+A3=Java Debug Kit
+A4=Java Design Key
+C=1
+card
+Q=Que fait la commande javac ?
+A1=Compile un fichier .java en .class
+A2=Exécute un fichier .class
+A3=Crée un package
+A4=Supprime les fichiers temporaires
+C=1
+card
+Q=Quelle commande exécute un programme compilé ?
+A1=java NomProgramme
+A2=javac NomProgramme
+A3=run NomProgramme
+A4=start NomProgramme
+C=1
+card
+Q=Quelle extension ont les fichiers compilés Java ?
+A1=.java
+A2=.jav
+A3=.class
+A4=.jar
+C=3
+card
+Q=Quel outil crée des archives exécutables Java ?
+A1=jar
+A2=java
+A3=javac
+A4=run
+C=1
+card
+Q=Quel mot-clé est utilisé pour définir un package ?
+A1=package
+A2=import
+A3=namespace
+A4=define
+C=1
+card
+Q=Quel mot-clé permet de définir une méthode qui n’appartient pas à une instance ?
+A1=class
+A2=static
+A3=global
+A4=void
+C=2
+card
+Q=Quel type de relation existe entre une classe et ses attributs objets ?
+A1=Association
+A2=Composition
+A3=Héritage
+A4=Extension
+C=2
+card
+Q=Quelles sont les étapes typiques de gestion d’une exception en Java ?
+A1=Lever, propager, traiter
+A2=Traiter, lever, propager
+A3=Propager, traiter, lever
+A4=Attraper, ignorer, terminer
+C=1

@@ -1,0 +1,212 @@
+#QCM v1
+name=PillierJava
+card
+Q=Quels sont les quatre piliers de la programmation orientée objet en Java ?
+A1=Encapsulation, Héritage, Polymorphisme, Abstraction
+A2=Encapsulation, Interfaces, Exceptions, Collections
+A3=Héritage, Classes internes, Threads, Abstraction
+A4=Polymorphisme, Compilation, Héritage, Sérialisation
+C=1
+card
+Q=Quel pilier POO permet de protéger les données internes d’une classe ?
+A1=Polymorphisme
+A2=Encapsulation
+A3=Héritage
+A4=Abstraction
+C=2
+card
+Q=Quel pilier POO consiste à cacher les détails d’implémentation pour ne montrer qu’une interface simple ?
+A1=Abstraction
+A2=Encapsulation
+A3=Polymorphisme
+A4=Héritage
+C=1
+card
+Q=Quel pilier permet à une classe d’hériter des attributs et méthodes d’une autre ?
+A1=Encapsulation
+A2=Polymorphisme
+A3=Héritage
+A4=Abstraction
+C=3
+card
+Q=Quel pilier permet à un même nom de méthode d’avoir plusieurs comportements selon le contexte ?
+A1=Encapsulation
+A2=Abstraction
+A3=Héritage
+A4=Polymorphisme
+C=4
+card
+Q=L’encapsulation est mise en œuvre principalement à l’aide de :
+A1=Visibilité des membres et méthodes
+A2=Héritage de classes
+A3=Interfaces multiples
+A4=Exceptions
+C=1
+card
+Q=Quel mot-clé rend un attribut accessible uniquement dans sa classe ?
+A1=public
+A2=protected
+A3=private
+A4=default
+C=3
+card
+Q=Quel mot-clé permet à une sous-classe d’appeler une méthode de sa classe parente ?
+A1=this
+A2=super
+A3=extends
+A4=base
+C=2
+card
+Q=Quelle relation illustre le principe d’héritage ?
+A1=“A un”
+A2=“Est un”
+A3=“Utilise un”
+A4=“Contient un”
+C=2
+card
+Q=Le polymorphisme en Java repose sur :
+A1=La surcharge et la redéfinition de méthodes
+A2=La duplication de classes
+A3=L’héritage multiple
+A4=Les interfaces graphiques
+C=1
+card
+Q=La surcharge (overloading) d’une méthode signifie :
+A1=Changer le comportement dans la classe fille
+A2=Définir plusieurs méthodes avec le même nom mais des paramètres différents
+A3=Masquer une méthode héritée
+A4=Créer une méthode abstraite
+C=2
+card
+Q=La redéfinition (overriding) d’une méthode signifie :
+A1=Changer la visibilité d’une méthode privée
+A2=Remplacer une méthode héritée par une version spécifique
+A3=Créer plusieurs signatures identiques
+A4=Masquer une variable de classe
+C=2
+card
+Q=Quel mot-clé permet de redéfinir une méthode héritée ?
+A1=@Override
+A2=extends
+A3=super
+A4=static
+C=1
+card
+Q=L’abstraction se traduit souvent par :
+A1=Des classes abstraites ou des interfaces
+A2=Des attributs privés
+A3=Des classes finales
+A4=Des méthodes statiques
+C=1
+card
+Q=Une classe abstraite :
+A1=Peut contenir du code et des méthodes abstraites
+A2=Ne contient que des méthodes concrètes
+A3=Ne peut pas avoir d’attributs
+A4=Ne peut pas être héritée
+C=1
+card
+Q=Une interface en Java permet :
+A1=De définir un contrat de comportement sans implémentation
+A2=De stocker des attributs d’instance
+A3=De dériver plusieurs classes
+A4=De gérer des exceptions
+C=1
+card
+Q=Pourquoi utiliser l’encapsulation ?
+A1=Pour éviter les accès directs et incohérents aux données
+A2=Pour accélérer l’exécution
+A3=Pour permettre l’héritage multiple
+A4=Pour réduire le polymorphisme
+C=1
+card
+Q=Dans quel cas parle-t-on de polymorphisme de substitution ?
+A1=Quand une référence de type parent pointe vers un objet enfant
+A2=Quand deux classes ont le même nom
+A3=Quand une méthode est surchargée
+A4=Quand une classe contient plusieurs attributs
+C=1
+card
+Q=Quel pilier favorise la réutilisation du code existant ?
+A1=Polymorphisme
+A2=Héritage
+A3=Encapsulation
+A4=Abstraction
+C=2
+card
+Q=Quel pilier améliore la maintenabilité en limitant l’exposition des données internes ?
+A1=Abstraction
+A2=Encapsulation
+A3=Héritage
+A4=Polymorphisme
+C=2
+card
+Q=Quel mot-clé interdit l’héritage d’une classe ?
+A1=static
+A2=final
+A3=abstract
+A4=super
+C=2
+card
+Q=Quel type de méthode illustre le polymorphisme d’exécution ?
+A1=Une méthode redéfinie dans une sous-classe
+A2=Une méthode privée
+A3=Une méthode surchargée
+A4=Une méthode abstraite non implémentée
+C=1
+card
+Q=Dans l’encapsulation, comment accède-t-on aux attributs privés d’une classe ?
+A1=Par des méthodes getters et setters
+A2=Directement avec this
+A3=Par héritage
+A4=Par le mot-clé super
+C=1
+card
+Q=Une classe finale :
+A1=Ne peut pas être héritée
+A2=Ne peut pas contenir de méthode
+A3=Ne peut pas être instanciée
+A4=Doit être abstraite
+C=1
+card
+Q=L’héritage multiple de classes en Java :
+A1=Est interdit
+A2=Est autorisé uniquement avec extends
+A3=Est permis pour les classes abstraites
+A4=Se fait avec plusieurs super()
+C=1
+card
+Q=Le polymorphisme compile-time est aussi appelé :
+A1=Surcharge
+A2=Héritage
+A3=Redéfinition
+A4=Encapsulation
+C=1
+card
+Q=Le polymorphisme runtime est aussi appelé :
+A1=Héritage dynamique
+A2=Redéfinition
+A3=Masquage
+A4=Abstraction
+C=2
+card
+Q=Que signifie “information hiding” ?
+A1=Masquer les détails internes d’une classe via l’encapsulation
+A2=Supprimer les méthodes inutiles
+A3=Compiler le code sans afficher les erreurs
+A4=Rendre une méthode abstraite
+C=1
+card
+Q=Quel est le principal bénéfice du polymorphisme ?
+A1=Réutiliser le même code avec des comportements différents
+A2=Créer des objets sans classes
+A3=Masquer les exceptions
+A4=Accélérer l’exécution
+C=1
+card
+Q=L’abstraction aide à :
+A1=Simplifier la conception en ne montrant que l’essentiel
+A2=Empêcher la redéfinition de méthodes
+A3=Stocker les données de manière sécurisée
+A4=Optimiser la mémoire
+C=1

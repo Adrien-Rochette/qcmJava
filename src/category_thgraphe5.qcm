@@ -1,0 +1,162 @@
+#QCM v1
+name=CoursTheorieGraphes_Chapitre5
+
+card
+Q=Quelle propriété caractérise la relation de connexité dans un graphe non orienté ?
+A1=Elle est uniquement réflexive
+A2=Elle est réflexive, symétrique et transitive
+A3=Elle est uniquement transitive
+A4=Elle n’est ni réflexive ni symétrique
+C=2
+
+card
+Q=Un graphe est dit connexe si :
+A1=Il existe un chemin entre toute paire de sommets
+A2=Tous les sommets sont isolés
+A3=Il n’existe aucun chemin entre les sommets
+A4=Les arêtes sont toutes orientées
+C=1
+
+card
+Q=Quelle notation est utilisée pour désigner la composante connexe d’un sommet \( s \) ?
+A1=\( C(s) \)
+A2=\( CC(s) \)
+A3=\( G(s) \)
+A4=\( S(s) \)
+C=2
+
+card
+Q=Dans un graphe orienté, deux sommets sont fortement connectés si :
+A1=Ils sont adjacents
+A2=Il existe un chemin de l’un à l’autre et vice versa
+A3=Ils ont le même degré
+A4=Ils appartiennent à un cycle
+C=2
+
+card
+Q=Quelle est la condition pour qu’un graphe orienté soit fortement connexe ?
+A1=Tous les sommets ont le même degré
+A2=Il existe un chemin entre toute paire de sommets
+A3=Le graphe est acyclique
+A4=Le graphe est non orienté
+C=2
+
+card
+Q=Quelle est la notation pour une composante fortement connexe d’un sommet \( s \) ?
+A1=\( C(s) \)
+A2=\( CFC(s) \)
+A3=\( G(s) \)
+A4=\( S(s) \)
+C=2
+
+card
+Q=Quel outil permet de vérifier la forte connexité d’un graphe orienté ?
+A1=Un algorithme de coloration
+A2=Un parcours BFS ou DFS sur le graphe et son transposé
+A3=Un algorithme de tri topologique
+A4=Un algorithme de recherche de cycle
+C=2
+
+card
+Q=Qu’est-ce que le graphe transposé \( tG \) ?
+A1=Un graphe où toutes les arêtes sont supprimées
+A2=Un graphe où les sommets sont renommés
+A3=Un graphe où toutes les arêtes sont inversées
+A4=Un graphe où les poids des arêtes sont doublés
+C=3
+
+card
+Q=Quelle condition permet à un graphe non orienté d’être eulérien ?
+A1=Il est connexe et tous ses sommets sont de degré pair
+A2=Il est connexe et possède exactement deux sommets de degré impair
+A3=Il est non connexe et tous ses sommets sont de degré pair
+A4=Il est acyclique
+C=1
+
+card
+Q=Quelle condition permet à un graphe non orienté d’être semi-eulérien ?
+A1=Il est connexe et possède exactement deux sommets de degré impair
+A2=Il est connexe et tous ses sommets sont de degré pair
+A3=Il est non connexe et possède deux sommets de degré impair
+A4=Il est acyclique
+C=1
+
+card
+Q=Qu’est-ce qu’un cycle eulérien ?
+A1=Un cycle passant une et une seule fois par chaque sommet du graphe
+A2=Un cycle passant par tous les sommets mais pas nécessairement par toutes les arêtes
+A3=Un cycle passant une et une seule fois par chaque arête du graphe
+A4=Un cycle de longueur minimale
+C=3
+
+card
+Q=Qu’est-ce qu’une chaîne eulérienne ?
+A1=Une chaîne passant une et une seule fois par chaque sommet du graphe
+A2=Une chaîne passant par tous les sommets mais pas nécessairement par toutes les arêtes
+A3=Une chaîne passant une et une seule fois par chaque arête du graphe
+A4=Une chaîne de longueur maximale
+C=3
+
+card
+Q=Quelle est la condition pour qu’un graphe orienté soit eulérien ?
+A1=Il est fortement connexe et tous ses sommets ont un demi-degré extérieur égal au demi-degré intérieur
+A2=Il est connexe et tous ses sommets sont de degré pair
+A3=Il est acyclique
+A4=Il est non orienté
+C=1
+
+card
+Q=Qu’est-ce que le demi-degré extérieur d’un sommet dans un graphe orienté ?
+A1=Le nombre d’arcs entrants dans ce sommet
+A2=Le nombre d’arcs sortants de ce sommet
+A3=Le nombre total d’arcs incidents à ce sommet
+A4=Le nombre de sommets adjacents
+C=2
+
+card
+Q=Qu’est-ce que le demi-degré intérieur d’un sommet dans un graphe orienté ?
+A1=Le nombre d’arcs sortants de ce sommet
+A2=Le nombre d’arcs entrants dans ce sommet
+A3=Le nombre total d’arcs incidents à ce sommet
+A4=Le nombre de sommets adjacents
+C=2
+
+card
+Q=Quel algorithme permet de trouver un cycle eulérien dans un graphe eulérien ?
+A1=L’algorithme de Dijkstra
+A2=L’algorithme de Hierholzer
+A3=L’algorithme de Kruskal
+A4=L’algorithme de Prim
+C=2
+
+card
+Q=Quelle est la somme des demi-degrés extérieurs de tous les sommets dans un graphe orienté ?
+A1=Elle est égale au nombre de sommets
+A2=Elle est égale au nombre d’arêtes
+A3=Elle est égale à la somme des demi-degrés intérieurs
+A4=Elle est toujours nulle
+C=3
+
+card
+Q=Quelle est la somme des demi-degrés intérieurs de tous les sommets dans un graphe orienté ?
+A1=Elle est égale au nombre de sommets
+A2=Elle est égale au nombre d’arêtes
+A3=Elle est égale à la somme des demi-degrés extérieurs
+A4=Elle est toujours nulle
+C=3
+
+card
+Q=Quelle est la condition pour qu’un graphe orienté soit semi-eulérien ?
+A1=Il est fortement connexe et possède exactement deux sommets dont les demi-degrés extérieurs et intérieurs diffèrent de 1
+A2=Il est connexe et tous ses sommets sont de degré pair
+A3=Il est acyclique
+A4=Il est non orienté
+C=1
+
+card
+Q=Quel est l’objectif principal de l’étude de la connexité en aménagement du territoire ?
+A1=Maximiser le nombre de ponts dans une ville
+A2=Vérifier la continuité du territoire et éviter les régions isolées
+A3=Minimiser le nombre de routes
+A4=Supprimer les graphes non orientés
+C=2

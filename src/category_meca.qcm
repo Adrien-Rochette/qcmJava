@@ -1,0 +1,386 @@
+#QCM v1
+name=meca
+
+card
+Q=Quel est l’énoncé intégral du théorème d’Ampère pour un courant stationnaire ?
+A1=∮_Γ B·dl = μ0 I_Γ
+A2=∮_Γ E·dl = 0
+A3=∮_Γ B·dl = μ0 ε0 dΦ_E/dt
+A4=∬_Σ B·dS = μ0 I_Γ
+C=1
+
+card
+Q=Que représente la constante μ0 dans le théorème d’Ampère ?
+A1=La permittivité diélectrique du vide
+A2=La perméabilité magnétique du vide
+A3=La résistivité du conducteur
+A4=La densité de charge volumique
+C=2
+
+card
+Q=A quoi sert le théorème d’Ampère dans ce cours ?
+A1=A calculer le champ électrique créé par une charge ponctuelle
+A2=A déterminer la charge totale contenue dans un volume
+A3=A calculer le champ magnétique B créé par un courant électrique stationnaire
+A4=A calculer la divergence d’un champ vectoriel quelconque
+C=3
+
+card
+Q=Quelle est l’unité du champ magnétique B dans le S.I. ?
+A1=V/m
+A2=A
+A3=N/C
+A4=tesla (T)
+C=4
+
+card
+Q=Pour un solénoïde (bobine longue) de densité de spires n parcouru par un courant I, quelle est l’expression du champ magnétique à l’intérieur ?
+A1=B = μ0 n I
+A2=B = μ0 I /(2π r)
+A3=B = μ0 I /S
+A4=B = ε0 n I
+C=1
+
+card
+Q=Pour un fil rectiligne infini parcouru par un courant I, à quoi est égal le module du champ magnétique B à une distance r du fil ?
+A1=B(r) = μ0 n I
+A2=B(r) = μ0 I /(2π r)
+A3=B(r) = μ0 I r /(2π)
+A4=B(r) = I /(4π ε0 r²)
+C=2
+
+card
+Q=Quel est le moment dipolaire magnétique d’une boucle de courant de surface S parcourue par un courant I ?
+A1=m = q·S
+A2=m = γ S
+A3=m⃗ = I S⃗
+A4=m = μ0 I S
+C=3
+
+card
+Q=Que relie le théorème de Green-Ostrogradsky appliqué à un champ vectoriel A ?
+A1=La circulation de A sur un chemin fermé et le rotationnel de A
+A2=Le flux de E à travers une surface et la charge totale dans le volume
+A3=Le travail de A entre deux points et le gradient d’un potentiel
+A4=Le flux de A à travers une surface fermée et l’intégrale volumique de div(A)
+C=4
+
+card
+Q=Quelle est l’expression du courant traversant une surface orientée Σ ?
+A1=I_Σ = ∬_Σ j·dS
+A2=I_Σ = ∮_Σ j·dl
+A3=I_Σ = ∭_V ρ dV
+A4=I_Σ = dQ/dt
+C=1
+
+card
+Q=Quelle équation exprime localement la conservation de la charge électrique ?
+A1=div(E) = ρ/ε0
+A2=∂ρ/∂t + div(j) = 0
+A3=j = γ E
+A4=∂Q/∂t = I
+C=2
+
+card
+Q=Quelle est l’équation de Maxwell-Gauss en électrostatique pour le champ électrique E ?
+A1=rot(E) = 0
+A2=div(B) = 0
+A3=div(E) = ρ/ε0
+A4=div(j) = ρ/ε0
+C=3
+
+card
+Q=Parmi les affirmations suivantes, laquelle décrit un conducteur à l’équilibre électrostatique ?
+A1=La densité de charge volumique est uniforme
+A2=Le champ électrique intérieur est non nul
+A3=La densité de courant j est non nulle
+A4=La densité de charge volumique est nulle dans le volume, les charges sont en surface
+C=4
+
+card
+Q=Quelle relation donne la loi d’Ohm locale dans un conducteur ohmique homogène ?
+A1=j⃗ = γ E⃗
+A2=E⃗ = γ j⃗
+A3=j⃗ = ρ E⃗
+A4=E⃗ = ρ j⃗
+C=1
+
+card
+Q=Pour un courant uniforme dans un conducteur, comment relier j au courant total I et à la section S ?
+A1=j = S/I
+A2=j = I/S
+A3=j = I·S
+A4=j = I²/S
+C=2
+
+card
+Q=Quelle expression donne la puissance volumique dissipée par effet Joule ?
+A1=p = R I²
+A2=p = U I
+A3=p = j·E
+A4=p = ρ/ε0
+C=3
+
+card
+Q=Pour un champ vectoriel a = (Ax, Ay, Az), quelle est la divergence ?
+A1=∂Ax/∂y + ∂Ay/∂z + ∂Az/∂x
+A2=∂Ax/∂x − ∂Ay/∂y − ∂Az/∂z
+A3=∂Ax/∂x · ∂Ay/∂y · ∂Az/∂z
+A4=∂Ax/∂x + ∂Ay/∂y + ∂Az/∂z
+C=4
+
+card
+Q=Quelle est l’unité du champ électrique E ?
+A1=volt par mètre (V·m^-1)
+A2=ampère (A)
+A3=coulomb par mètre carré (C·m^-2)
+A4=tesla (T)
+C=1
+
+card
+Q=Quelle est l’unité de la densité de charge volumique ρ ?
+A1=coulomb (C)
+A2=coulomb par mètre cube (C·m^-3)
+A3=ampère par mètre carré (A·m^-2)
+A4=volt par mètre (V·m^-1)
+C=2
+
+card
+Q=Quelle est l’unité de la densité de courant j ?
+A1=ampère (A)
+A2=ampère par mètre (A·m^-1)
+A3=ampère par mètre carré (A·m^-2)
+A4=coulomb par mètre cube (C·m^-3)
+C=3
+
+card
+Q=Quelle est l’unité de la densité de courant surfacique j_s ?
+A1=ampère (A)
+A2=ampère par mètre carré (A·m^-2)
+A3=coulomb par mètre (C·m^-1)
+A4=ampère par mètre (A·m^-1)
+C=4
+
+card
+Q=Que signifie div(E) > 0 ?
+A1=Présence de charge positive
+A2=Champ magnétique nul
+A3=Champ constant
+A4=Absence de charge
+C=1
+
+card
+Q=Quelle forme intégrale de Maxwell-Gauss est correcte ?
+A1=∮ E·dl = Q_int/ε0
+A2=∯ E·dS = Q_int/ε0
+A3=∯ B·dS = Q_int/ε0
+A4=∮ B·dl = Q_int/ε0
+C=2
+
+card
+Q=Quelle relation globale exprime la conservation de la charge ?
+A1=∂Q/∂t = ∭ ρ dV
+A2=∂Q/∂t = ∬ j·dS
+A3=∂/∂t ∭ ρ dV = - ∬ j·dS
+A4=∭ div(j) dV = 0
+C=3
+
+card
+Q=Dans un régime stationnaire, quelle condition satisfait j ?
+A1=j=0
+A2=rot(j)=0
+A3=E=0
+A4=div(j)=0
+C=4
+
+card
+Q=Quelle relation lie la conductivité γ et la résistivité ρ ?
+A1=γ = ρ
+A2=γ = ρ^2
+A3=γ = 1/ρ^2
+A4=γ = 1/ρ
+C=4
+
+card
+Q=Quelle est l’unité de la conductivité γ ?
+A1=Ω·m
+A2=S·m^-1
+A3=V·m^-1
+A4=T
+C=2
+
+card
+Q=Quelle est l’unité de la résistivité ρ ?
+A1=S·m^-1
+A2=A·m^-2
+A3=Ω·m
+A4=V·m^-1
+C=3
+
+card
+Q=Pour un conducteur de longueur l et de section S, quelle est la bonne expression de R ?
+A1=R = ρ S / l
+A2=R = ρ / (l S)
+A3=R = l / (ρ S)
+A4=R = ρ l / S
+C=4
+
+card
+Q=Relation correcte entre R et γ ?
+A1=R = l/(γ S)
+A2=R = γ l/S
+A3=R = γ S/l
+A4=R = 1/(γ l S)
+C=1
+
+card
+Q=Pour un isolant parfait (γ=0) soumis à E, que vaut j ?
+A1=j = E
+A2=j = 0
+A3=j = ∞
+A4=j = ρ E
+C=2
+
+card
+Q=Effet sur R si on double la longueur l ?
+A1=R/2
+A2=R inchangée
+A3=2R
+A4=4R
+C=3
+
+card
+Q=Effet sur R si on double la section S ?
+A1=2R
+A2=R inchangée
+A3=4R
+A4=R/2
+C=4
+
+card
+Q=Unité de ε0 ?
+A1=C·m^-1
+A2=H·m^-1
+A3=Ω·m
+A4=F·m^-1
+C=4
+
+card
+Q=Unité de μ0 ?
+A1=T·m·A^-1
+A2=N·A^-2
+A3=F·m^-1
+A4=V·m^-1
+C=2
+
+card
+Q=Expression du temps de relaxation τ ?
+A1=τ = γ/ε0
+A2=τ = ε0 γ
+A3=τ = ε0 / γ
+A4=τ = 1/(ε0 γ)
+C=3
+
+card
+Q=Expression générale de ρ(t) pour une relaxation ?
+A1=ρ = ρ0 e^{t/τ}
+A2=ρ = ρ0/t
+A3=ρ = ρ0(1 - t/τ)
+A4=ρ = ρ0 e^{-t/τ}
+C=4
+
+card
+Q=Dans un conducteur à l’équilibre électrostatique, que vaut E intérieur ?
+A1=0
+A2=Constant non nul
+A3=Maximal au centre
+A4=Sinusoïdal
+C=1
+
+card
+Q=Équation différentielle obtenue pour ρ ?
+A1=∂ρ/∂t = 0
+A2=∂ρ/∂t + (γ/ε0)ρ = 0
+A3=∂ρ/∂t - (γ/ε0)ρ = 0
+A4=∂ρ/∂t = γρ
+C=2
+
+card
+Q=Signification de div(j) < 0 ?
+A1=Charge constante
+A2=Charge décroît
+A3=Charge augmente
+A4=ρ=0
+C=2
+
+card
+Q=Relation entre U, E et l ?
+A1=U = E/l
+A2=U = E l^2
+A3=U = E/l^2
+A4=U = E l
+C=4
+
+card
+Q=Description correcte du champ magnétique autour d’un fil infini ?
+A1=Lignes circulaires autour du fil
+A2=Champ radial
+A3=Champ uniforme parallèle
+A4=Champ nul
+C=1
+
+card
+Q=Champ extérieur d’un solénoïde long ?
+A1=Égal au champ intérieur
+A2=Très faible
+A3=Strictement nul
+A4=Radial croissant
+C=2
+
+card
+Q=Unité du moment dipolaire magnétique ?
+A1=T·m
+A2=C·m
+A3=A·m²
+A4=V·s
+C=3
+
+card
+Q=Loi d’Ohm macroscopique ?
+A1=U = I/R
+A2=U = R/I
+A3=R = U I
+A4=U = R I
+C=4
+
+card
+Q=Unité de la puissance volumique p ?
+A1=W·m^-3
+A2=W
+A3=J
+A4=VA
+C=1
+
+card
+Q=Signification de div(j) > 0 ?
+A1=Création de charge
+A2=Plus de charge sort qu’il n’en entre
+A3=Plus de charge entre qu’il n’en sort
+A4=Charge constante
+C=2
+
+card
+Q=Quelle grandeur s’exprime en C·m^-3 ?
+A1=j
+A2=γ
+A3=ρ
+A4=ε0
+C=3
+
+card
+Q=Énergie dissipée W en fonction de p, V et Δt ?
+A1=W = p / V
+A2=W = p / Δt
+A3=W = p V / Δt
+A4=W = p V Δt
+C=4

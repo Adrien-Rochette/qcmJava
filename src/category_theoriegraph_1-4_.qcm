@@ -1,0 +1,261 @@
+#QCM v1
+name=TheorieGraph[1-4]
+card
+Q=Qu’est-ce qu’un sommet isolé dans un graphe ?
+A1=Un sommet relié à tous les autres sommets
+A2=Un sommet sans arête incidente
+A3=Un sommet relié à exactement un autre sommet
+A4=Un sommet de degré maximal
+C=2
+card
+Q=Qu’est-ce qu’un sommet pendant ?
+A1=Un sommet de degré 0
+A2=Un sommet de degré 1
+A3=Un sommet relié à tous les autres
+A4=Un sommet appartenant à un cycle
+C=2
+card
+Q=Qu’est-ce qu’une arête incidente à un sommet ?
+A1=Une arête reliant deux sommets quelconques
+A2=Une arête dont le sommet est une extrémité
+A3=Une arête sans sommet
+A4=Une arête de poids nul
+C=2
+card
+Q=Qu’est-ce que deux sommets adjacents ?
+A1=Deux sommets reliés par au moins une arête
+A2=Deux sommets sans arête commune
+A3=Deux sommets de même degré
+A4=Deux sommets isolés
+C=1
+card
+Q=Qu’est-ce qu’une coloration propre d’un graphe ?
+A1=Une coloration où tous les sommets ont la même couleur
+A2=Une coloration où deux sommets adjacents ont des couleurs différentes
+A3=Une coloration utilisant exactement 2 couleurs
+A4=Une coloration où chaque sommet a une couleur unique
+C=2
+card
+Q=Qu’est-ce que le nombre chromatique d’un graphe ?
+A1=Le nombre maximal de couleurs utilisées dans une coloration propre
+A2=Le nombre minimal de couleurs nécessaires pour obtenir une coloration propre
+A3=Le nombre total de sommets du graphe
+A4=Le nombre total d’arêtes du graphe
+C=2
+card
+Q=Qu’est-ce qu’un graphe k-colorable ?
+A1=Un graphe qui peut être coloré avec exactement k couleurs
+A2=Un graphe qui nécessite au moins k couleurs pour une coloration propre
+A3=Un graphe où chaque sommet a un degré de k
+A4=Un graphe avec k sommets
+C=1
+card
+Q=Qu’est-ce qu’un graphe complet ?
+A1=Un graphe sans arête
+A2=Un graphe où chaque sommet est relié à tous les autres sommets
+A3=Un graphe avec exactement un cycle
+A4=Un graphe où tous les sommets ont le même degré
+C=2
+card
+Q=Qu’est-ce qu’un graphe pondéré ?
+A1=Un graphe où les arêtes ont des poids positifs
+A2=Un graphe où les sommets sont numérotés
+A3=Un graphe sans cycle
+A4=Un graphe complet
+C=1
+card
+Q=Qu’est-ce qu’un plus court chemin (PCC) dans un graphe pondéré ?
+A1=Un chemin passant par le plus de sommets possibles
+A2=Un chemin dont la somme des poids des arêtes est minimale
+A3=Un chemin sans cycle
+A4=Un chemin reliant deux sommets quelconques
+C=2
+card
+Q=Quel est le principe de l’algorithme de Welsh et Powell ?
+A1=Colorer les sommets dans l’ordre croissant de leurs degrés
+A2=Colorer les sommets dans l’ordre décroissant de leurs degrés
+A3=Colorer les sommets aléatoirement
+A4=Colorer les sommets en utilisant toujours la même couleur
+C=2
+card
+Q=Qu’est-ce qu’un parcours en largeur (BFS) ?
+A1=Un parcours qui explore tous les voisins d’un sommet avant de passer au sommet suivant
+A2=Un parcours qui explore un chemin jusqu’à son extrémité avant de revenir en arrière
+A3=Un parcours qui utilise une pile pour explorer les sommets
+A4=Un parcours qui ne marque pas les sommets visités
+C=1
+card
+Q=Qu’est-ce qu’un parcours en profondeur (DFS) ?
+A1=Un parcours qui explore tous les voisins d’un sommet avant de passer au sommet suivant
+A2=Un parcours qui explore un chemin jusqu’à son extrémité avant de revenir en arrière
+A3=Un parcours qui utilise une file pour explorer les sommets
+A4=Un parcours qui ne visite jamais les sommets adjacents
+C=2
+card
+Q=Qu’est-ce qu’un graphe acyclique ?
+A1=Un graphe contenant au moins un cycle
+A2=Un graphe ne contenant aucun cycle
+A3=Un graphe où tous les sommets sont isolés
+A4=Un graphe où toutes les arêtes ont le même poids
+C=2
+card
+Q=Qu’est-ce qu’un graphe étiqueté ?
+A1=Un graphe dont les arêtes ou les sommets portent des informations à prendre en compte
+A2=Un graphe où toutes les arêtes ont le même poids
+A3=Un graphe sans boucle ni arête multiple
+A4=Un graphe complet
+C=1
+card
+Q=Qu’est-ce qu’un graphe valué ?
+A1=Un graphe dont les sommets sont numérotés
+A2=Un graphe où les étiquettes sont des nombres réels appelés poids
+A3=Un graphe où toutes les arêtes ont un poids nul
+A4=Un graphe non orienté
+C=2
+card
+Q=Qu’est-ce qu’un chemin élémentaire ?
+A1=Un chemin passant par le même sommet plusieurs fois
+A2=Un chemin ne passant pas deux fois par le même sommet
+A3=Un chemin contenant un cycle
+A4=Un chemin de longueur maximale
+C=2
+card
+Q=Qu’est-ce qu’un chemin simple ?
+A1=Un chemin contenant plusieurs fois la même arête
+A2=Un chemin ne contenant pas plusieurs fois la même arête
+A3=Un chemin passant par tous les sommets
+A4=Un chemin de longueur minimale
+C=2
+card
+Q=Qu’est-ce qu’un circuit dans un graphe orienté ?
+A1=Un chemin dont l’extrémité finale est différente de l’extrémité initiale
+A2=Un chemin dont l’extrémité finale est égale à l’extrémité initiale
+A3=Un chemin sans arête
+A4=Un chemin passant par tous les sommets
+C=2
+card
+Q=Qu’est-ce qu’un cycle dans un graphe non orienté ?
+A1=Une chaîne dont les deux extrémités sont distinctes
+A2=Une chaîne dont les deux extrémités sont confondues
+A3=Une chaîne sans arête
+A4=Une chaîne passant par tous les sommets
+C=2
+card
+Q=Qu’est-ce qu’un descendant d’un sommet dans un graphe orienté ?
+A1=Un sommet qui peut être atteint depuis ce sommet
+A2=Un sommet qui ne peut pas être atteint depuis ce sommet
+A3=Un sommet de degré nul
+A4=Un sommet isolé
+C=1
+card
+Q=Qu’est-ce qu’un ascendant d’un sommet dans un graphe orienté ?
+A1=Un sommet depuis lequel on peut atteindre ce sommet
+A2=Un sommet qui ne peut pas être atteint depuis ce sommet
+A3=Un sommet de degré maximal
+A4=Un sommet isolé
+C=1
+card
+Q=Qu’est-ce qu’un graphe connexe ?
+A1=Un graphe où il existe un chemin entre toute paire de sommets
+A2=Un graphe sans arête
+A3=Un graphe avec un seul sommet
+A4=Un graphe où tous les sommets sont isolés
+C=1
+card
+Q=Qu’est-ce qu’un arbre en théorie des graphes ?
+A1=Un graphe connexe sans cycle
+A2=Un graphe avec exactement un cycle
+A3=Un graphe sans arête
+A4=Un graphe complet
+C=1
+card
+Q=Qu’est-ce qu’un graphe biparti ?
+A1=Un graphe dont les sommets peuvent être divisés en deux ensembles tels qu’il n’y a pas d’arête entre sommets d’un même ensemble
+A2=Un graphe où tous les sommets sont reliés entre eux
+A3=Un graphe sans sommet isolé
+A4=Un graphe avec un nombre pair de sommets
+C=1
+card
+Q=Qu’est-ce que le degré d’un sommet ?
+A1=Le nombre d’arêtes incidentes à ce sommet
+A2=Le nombre total de sommets dans le graphe
+A3=Le nombre de cycles contenant ce sommet
+A4=Le nombre de sommets adjacents de degré maximal
+C=1
+card
+Q=Qu’est-ce qu’un graphe simple ?
+A1=Un graphe sans boucle ni arête multiple
+A2=Un graphe avec des boucles
+A3=Un graphe avec des arêtes multiples
+A4=Un graphe complet
+C=1
+card
+Q=Qu’est-ce qu’un graphe orienté ?
+A1=Un graphe où les arêtes ont une direction
+A2=Un graphe sans arête
+A3=Un graphe où toutes les arêtes ont le même poids
+A4=Un graphe avec un seul sommet
+C=1
+card
+Q=Qu’est-ce qu’un graphe non orienté ?
+A1=Un graphe où les arêtes n’ont pas de direction
+A2=Un graphe où les arêtes ont une direction
+A3=Un graphe sans sommet
+A4=Un graphe complet
+C=1
+card
+Q=Qu’est-ce qu’un sous-graphe ?
+A1=Un graphe formé d’un sous-ensemble de sommets et des arêtes correspondantes
+A2=Un graphe sans arête
+A3=Un graphe complet
+A4=Un graphe avec un seul sommet
+C=1
+card
+Q=Qu’est-ce qu’un graphe planaire ?
+A1=Un graphe qui peut être dessiné sur un plan sans que ses arêtes ne se croisent
+A2=Un graphe avec des arêtes qui se croisent
+A3=Un graphe sans sommet
+A4=Un graphe complet
+C=1
+card
+Q=Qu’est-ce qu’un graphe eulérien ?
+A1=Un graphe contenant un cycle eulérien
+A2=Un graphe sans cycle
+A3=Un graphe avec un seul sommet
+A4=Un graphe complet
+C=1
+card
+Q=Qu’est-ce qu’un cycle eulérien ?
+A1=Un cycle passant par chaque arête exactement une fois
+A2=Un cycle passant par chaque sommet exactement une fois
+A3=Un cycle de longueur maximale
+A4=Un cycle sans arête
+C=1
+card
+Q=Qu’est-ce qu’un graphe hamiltonien ?
+A1=Un graphe contenant un cycle hamiltonien
+A2=Un graphe sans cycle
+A3=Un graphe avec un seul sommet
+A4=Un graphe complet
+C=1
+card
+Q=Qu’est-ce qu’un cycle hamiltonien ?
+A1=Un cycle passant par chaque sommet exactement une fois
+A2=Un cycle passant par chaque arête exactement une fois
+A3=Un cycle de longueur minimale
+A4=Un cycle sans sommet
+C=1
+card
+Q=Qu’est-ce qu’un algorithme glouton ?
+A1=Un algorithme qui fait le meilleur choix local à chaque étape
+A2=Un algorithme qui explore toutes les possibilités
+A3=Un algorithme qui utilise toujours la même solution
+A4=Un algorithme qui ne donne jamais de solution
+C=1
+card
+Q=Qu’est-ce que la complexité d’un algorithme ?
+A1=Le temps ou l’espace nécessaire pour exécuter l’algorithme en fonction de la taille des données
+A2=Le nombre de couleurs utilisées par l’algorithme
+A3=Le nombre de sommets dans le graphe
+A4=Le nombre d’arêtes dans le graphe
+C=1

@@ -1,0 +1,247 @@
+#QCM v1
+name=Théorie des graphes V1
+card
+Q=L’ordre d’un graphe est
+A1=Le nombre d’arêtes
+A2=Le nombre de sommets
+A3=Le plus grand degré
+A4=La somme des degrés
+C=2
+card
+Q=La taille d’un graphe est
+A1=Le nombre d’arêtes
+A2=Le nombre de composantes
+A3=Le nombre de sommets
+A4=Le diamètre
+C=1
+card
+Q=Dans un graphe simple non orienté G=(S,A), l’ensemble A est
+A1=Un ensemble de paires ordonnées de sommets
+A2=Un multiensemble d’arêtes
+A3=Un ensemble de couples distincts non ordonnés {u,v} avec u≠v
+A4=Un ensemble de boucles
+C=3
+card
+Q=La relation binaire R associée à un graphe simple non orienté est
+A1=Réflexive et antisymétrique
+A2=Symétrique et non réflexive
+A3=Transitive et réflexive
+A4=Antisymétrique et transitive
+C=2
+card
+Q=Deux sommets sont adjacents si
+A1=Ils appartiennent à la même composante
+A2=Ils ont le même degré
+A3=Ils sont reliés par au moins une arête
+A4=Ils ont une distance au plus 2
+C=3
+card
+Q=Adj(u) désigne
+A1=Les arêtes incidentes à u
+A2=L’ensemble des sommets adjacents à u
+A3=Les arêtes adjacentes à u
+A4=Les boucles en u
+C=2
+card
+Q=Dans un graphe orienté, si l’arc (u,v) existe alors
+A1=u est successeur de v et v prédécesseur de u
+A2=u est prédécesseur de v et v successeur de u
+A3=u et v sont isolés
+A4=u et v ne sont pas adjacents
+C=2
+card
+Q=Un graphe « avec boucle »
+A1=Interdit toute arête multiple
+A2=Autorise une arête reliant un sommet à lui-même
+A3=Est forcément orienté
+A4=Est forcément non orienté
+C=2
+card
+Q=Un multigraphe
+A1=Interdit les boucles
+A2=Autorise plusieurs arêtes entre deux mêmes sommets
+A3=Est toujours complet
+A4=A toujours des arêtes pondérées
+C=2
+card
+Q=Étiqueté, valué, pondéré. La caractérisation correcte est
+A1=Étiqueté : étiquettes numériques uniquement
+A2=Valué : étiquettes réelles appelées poids
+A3=Pondéré : poids négatifs par définition
+A4=Valué = pondéré
+C=2
+card
+Q=« Un graphe n’est pas juste un dessin » implique
+A1=Une unique représentation sagittale correcte
+A2=L’impossibilité de stocker en mémoire
+A3=De multiples représentations sagittales possibles pour un même graphe
+A4=L’interdiction d’utiliser des matrices
+C=3
+card
+Q=Stockage en mémoire vive selon le cours
+A1=Uniquement des listes chaînées
+A2=Tableaux, matrices, listes chaînées sont possibles
+A3=Uniquement des matrices d’adjacence
+A4=Uniquement des dictionnaires
+C=2
+card
+Q=Sommet isolé
+A1=Adjacent à un seul sommet
+A2=Adjacent à aucun autre sommet
+A3=Degré maximal
+A4=Porte toujours une boucle
+C=2
+card
+Q=Sommet pendant
+A1=Degré 0
+A2=Adjacent à un seul autre sommet
+A3=Appartient à un cycle
+A4=A une boucle
+C=2
+card
+Q=Deux arêtes sont adjacentes si
+A1=Elles ont au moins une extrémité commune
+A2=Elles ont même longueur
+A3=Elles relient les mêmes sommets
+A4=Elles sont parallèles dans le dessin
+C=1
+card
+Q=Une arête est incidente à un sommet s si
+A1=s n’est pas l’une de ses extrémités
+A2=s est l’une de ses extrémités
+A3=s est isolé
+A4=s a degré maximal
+C=2
+card
+Q=Dans un graphe simple d’ordre n, pour tout sommet s
+A1=deg(s) ≥ n
+A2=deg(s) ≤ n−1
+A3=deg(s) = n
+A4=deg(s) ≤ n−2 toujours
+C=2
+card
+Q=Coloration propre des sommets
+A1=Deux sommets adjacents peuvent partager la même couleur
+A2=Tous les sommets ont la même couleur
+A3=Deux sommets adjacents ont des couleurs différentes
+A4=Chaque arête a une couleur distincte
+C=3
+card
+Q=k-colorable signifie
+A1=Il existe une coloration propre avec au plus k² couleurs
+A2=Il existe une coloration propre avec au plus k couleurs
+A3=Il existe une coloration propre avec exactement k couleurs
+A4=Il n’existe aucune coloration propre
+C=3
+card
+Q=Le nombre chromatique χ(G) est
+A1=Le plus grand nombre de couleurs d’une coloration propre
+A2=Le plus petit nombre de couleurs d’une coloration propre
+A3=Le nombre de sommets
+A4=Le nombre d’arêtes
+C=2
+card
+Q=Algorithme séquentiel naïf de coloration
+A1=Glouton et dépend de l’ordre de parcours
+A2=Non glouton et optimal
+A3=Utilise un retour en arrière systématique
+A4=Indépendant de l’ordre de parcours
+C=1
+card
+Q=Welsh et Powell, étape initiale
+A1=Trier les sommets par ordre croissant de degrés
+A2=Trier les sommets aléatoirement
+A3=Trier les sommets par ordre décroissant de degrés
+A4=Trier les arêtes par poids
+C=3
+card
+Q=Propriété de Welsh et Powell
+A1=Garantit toujours la solution optimale
+A2=Heuristique, n’assure pas l’optimalité
+A3=Nécessite un graphe orienté
+A4=Ne fonctionne que sur les arbres
+C=2
+card
+Q=Définition d’un sous-graphe G′ de G
+A1=G′ a tous les sommets de G mais aucune arête
+A2=G′=(S′,A′) avec S′⊆S et A′⊆A dont les extrémités sont dans S′
+A3=G′ a des sommets hors de S
+A4=G′ contient toutes les arêtes de G
+C=2
+card
+Q=Graphe complet Kn
+A1=Tous les sommets ont degré 1
+A2=Tous les sommets sont deux à deux adjacents
+A3=Il n’a pas d’arêtes
+A4=Il est toujours orienté
+C=2
+card
+Q=Nombre d’arêtes de Kn
+A1=n
+A2=n(n−1)
+A3=n(n−1)/2
+A4=2n
+C=3
+card
+Q=Encadrement du nombre chromatique selon le cours
+A1=ω(G) ≤ χ(G) ≤ Δ(G)+1
+A2=χ(G) ≤ ω(G) ≤ Δ(G)+1
+A3=Δ(G) ≤ χ(G) ≤ ω(G)+1
+A4=χ(G) = Δ(G)
+C=1
+card
+Q=Définition de k-coloration dans la section V
+A1=Application injective S → {1,…,k}
+A2=Application surjective S → {1,…,k}
+A3=Application bijective S → {1,…,k}
+A4=Aucune condition de surjectivité
+C=2
+card
+Q=Pour décider « G est-il k-colorable ? », le nombre de combinaisons à tester est
+A1=k^n
+A2=Le nombre de surjections de S vers {1,…,k}, noté S_{n,k}
+A3=n!
+A4=C(n,k)
+C=2
+card
+Q=Complexité mentionnée pour trouver χ(G) en général
+A1=Linéaire
+A2=Logarithmique
+A3=Factorielle
+A4=Polynômiale
+C=3
+card
+Q=Algorithme naïf, choix de couleur à chaque étape
+A1=Toujours la plus grande couleur possible
+A2=La plus petite couleur non utilisée par les voisins déjà colorés
+A3=Une couleur aléatoire
+A4=Une couleur nouvelle à chaque sommet
+C=2
+card
+Q=Objectif de Welsh et Powell
+A1=Colorer en dernier les sommets de grand degré
+A2=Colorer d’abord les sommets de grand degré
+A3=Minimiser le nombre d’arêtes
+A4=Maximiser le diamètre
+C=2
+card
+Q=Dans les tableaux d’applications du chapitre 1, quel appariement est correct
+A1=Télécommunications — Allocation de fréquences et minimisation des interférences
+A2=Sociologie — Reconfiguration des réseaux en cas de panne
+A3=Écologie — Allocation de registres
+A4=Industrie — Propagation des rumeurs
+C=1
+card
+Q=« Un même graphe a plein de représentations sagittales possibles » signifie
+A1=Le positionnement des sommets peut changer sans changer G
+A2=Toute représentation modifie G
+A3=Le nombre d’arêtes change avec le dessin
+A4=Les degrés changent avec le dessin
+C=1
+card
+Q=Dans un graphe orienté, Pred(u) désigne
+A1=L’ensemble des successeurs de u
+A2=L’ensemble des prédécesseurs de u
+A3=L’ensemble des voisins non orientés de u
+A4=L’ensemble des sommets de degré maximal
+C=2

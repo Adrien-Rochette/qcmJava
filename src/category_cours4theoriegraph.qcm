@@ -1,0 +1,128 @@
+#QCM v1
+name=Cours4TheorieGraph
+card
+Q=Qu’est-ce qu’un graphe étiqueté ?
+A1=Un graphe dont les arêtes ou les sommets portent des informations à prendre en compte (lettres, mots, nombres, symboles…)
+A2=Un graphe où toutes les arêtes ont le même poids
+A3=Un graphe sans boucle ni arête multiple
+A4=Un graphe complet
+C=1
+card
+Q=Qu’est-ce qu’un graphe valué ?
+A1=Un graphe dont les sommets sont numérotés
+A2=Un graphe où les étiquettes sont des nombres réels appelés poids
+A3=Un graphe où toutes les arêtes ont un poids nul
+A4=Un graphe non orienté
+C=2
+card
+Q=Qu’est-ce qu’un graphe pondéré dans ce cours ?
+A1=Un graphe valué dont les poids sont quelconques
+A2=Un graphe valué dont tous les poids sont positifs
+A3=Un graphe où chaque sommet a le même degré
+A4=Un graphe acyclique
+C=2
+card
+Q=Dans un graphe routier ou de transports, que peuvent représenter les poids des arcs ?
+A1=Uniquement la distance géographique
+A2=Une distance, une durée, un coût ou un flux (personnes, véhicules, marchandises…)
+A3=Uniquement le nombre de carrefours traversés
+A4=Uniquement le sens de circulation
+C=2
+card
+Q=Dans un graphe de réseau social, que peut représenter le poids d’une arête ?
+A1=Le nombre de sommets du graphe
+A2=Le nombre de messages échangés entre deux utilisateurs
+A3=La date de création du réseau
+A4=Le degré moyen du graphe
+C=2
+card
+Q=Dans un graphe de transports en commun, que peut représenter le poids d’un sommet (station) ?
+A1=Le nombre de lignes passant par la station
+A2=Un temps d’attente moyen entre deux bus ou deux rames
+A3=La couleur de la ligne
+A4=La capacité maximale du véhicule
+C=2
+card
+Q=Qu’est-ce que la longueur pondérée (ou poids) d’un chemin dans un graphe pondéré ?
+A1=Le nombre d’arêtes du chemin
+A2=Le produit des poids des arêtes du chemin
+A3=La somme des poids des arêtes qui composent le chemin
+A4=Le poids maximal parmi les arêtes du chemin
+C=3
+card
+Q=Qu’appelle-t-on plus court chemin (PCC) entre deux sommets s et t ?
+A1=Un chemin qui minimise le nombre d’arêtes entre s et t
+A2=Un chemin simple quelconque entre s et t
+A3=Un chemin dont le poids total est minimal entre s et t
+A4=Un chemin qui ne passe par aucun sommet intermédiaire
+C=3
+card
+Q=Que calcule un parcours en largeur (BFS) sur un graphe non pondéré ?
+A1=Un plus court chemin en nombre d’arêtes
+A2=Un plus court chemin en poids
+A3=Un arbre couvrant de poids minimal
+A4=Un cycle eulérien
+C=1
+card
+Q=Pourquoi un simple BFS ne suffit-il pas dans un graphe pondéré général ?
+A1=Parce qu’il ne visite pas tous les sommets
+A2=Parce qu’il ne sait pas gérer les graphes orientés
+A3=Parce qu’il ne tient pas compte des valeurs des poids et ne garantit pas un chemin de poids minimal
+A4=Parce qu’il impose que le graphe soit connexe
+C=3
+card
+Q=Quel phénomène montre que BFS peut donner un mauvais résultat en graphe pondéré ?
+A1=Il ignore les sommets de degré 1
+A2=Il peut marquer un sommet via un chemin plus long alors qu’un chemin plus court passe par un sommet non encore exploré
+A3=Il ne peut pas détecter de cycle
+A4=Il s’arrête avant d’avoir parcouru toutes les arêtes
+C=2
+card
+Q=Quel est le principe de la méthode “Brute Force” pour chercher un plus court chemin entre s et t ?
+A1=Choisir toujours l’arête de plus petit poids
+A2=Explorer tous les chemins sans cycle partant de s puis garder ceux de poids minimal
+A3=Supprimer toutes les arêtes de poids maximal
+A4=Remplacer tous les poids par 1 puis appliquer BFS
+C=2
+card
+Q=Comment se compare la complexité de la méthode “Brute Force” à celle des algorithmes comme Dijkstra ?
+A1=Brute Force est en général exponentielle alors que Dijkstra est en temps polynomial
+A2=Brute Force est toujours plus rapide que Dijkstra
+A3=Les deux sont exponentiels
+A4=Les deux sont linéaires
+C=1
+card
+Q=Quel est l’objectif de l’algorithme de Dijkstra ?
+A1=Trouver un cycle eulérien
+A2=Trouver un arbre couvrant minimal
+A3=Trouver les plus courts chemins depuis un sommet source vers tous les autres sommets
+A4=Colorier le graphe avec un nombre minimal de couleurs
+C=3
+card
+Q=Quelle condition sur les poids est nécessaire pour l’algorithme de Dijkstra ?
+A1=Les poids peuvent être positifs ou négatifs sans restriction
+A2=Tous les poids doivent être nuls
+A3=Tous les poids doivent être positifs
+A4=Tous les poids doivent être pairs
+C=3
+card
+Q=Que devient l’algorithme de Dijkstra lorsque tous les poids valent 1 ?
+A1=Il ne fonctionne plus
+A2=Il devient équivalent à un BFS
+A3=Il devient exponentiel
+A4=Il ne visite plus tous les sommets
+C=2
+card
+Q=Dans Dijkstra, que signifie “marquer” un sommet ?
+A1=On décide de ne plus jamais y revenir même si on trouve un chemin plus court
+A2=On a trouvé et fixé un plus court chemin depuis la source vers ce sommet
+A3=On indique que le sommet est isolé
+A4=On supprime toutes les arêtes incidentes
+C=2
+card
+Q=Quel type de stratégie d’exploration décrit le cours pour Dijkstra ?
+A1=Une exploration en profondeur uniquement
+A2=Une exploration aléatoire des sommets
+A3=Une exploration en largeur “concentrique” fondée sur la somme des poids et non sur le nombre d’arcs
+A4=Une exploration qui suit toujours les arêtes de poids maximal
+C=3
